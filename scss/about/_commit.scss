@@ -1,0 +1,31 @@
+.commit{
+    width: 1110px;
+    height: 520px;
+    margin-top: 168px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__text{
+        margin-left: 125px;
+
+
+        &>h2{
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 48px;
+            color: $main-clr;
+            font-family: $font-two
+        }
+
+        &>p{
+            font-family: $main-font;
+            font-weight: $main-weight;
+            font-size: $size-main;
+            line-height: 26px;
+            color: $main-clr;
+            margin-top: 32px;
+        }
+    }
+}

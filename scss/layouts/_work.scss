@@ -1,0 +1,90 @@
+.work{
+    width: 1045px;
+    height: 565px;
+    position: relative;
+    top: 900px;
+    left: 92px;
+    margin-bottom: 200px;
+
+    &__div{
+        position: absolute;
+        top: 127px;
+        width: 760px;
+        background-color: $main-clr;
+        border: 2px solid #FDD6BA;
+        margin-left: 10px;
+    }
+
+    &__circle{
+        position: absolute;
+        top: 113px;
+        width: 750;
+        height: 31px;
+        display: flex;
+        &--item{
+            width: 31px;
+            height: 31px;
+            border: 2px solid #0E8784;
+            background: $main-bg;
+            border-radius: 50%;
+            margin-right: 349px;
+        }
+    }
+
+    &__cards{
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 194px;
+
+        &--items{
+            width: 330px;
+            margin-right: 45px;
+        }
+        &--items>b{
+            font-family: $font-two;
+            font-weight: 900;
+            font-size: 72px;
+            line-height: 72px;
+            color: #FDD6BA;
+        }
+        &--items>h3{
+            margin-top: 38px;
+            margin-bottom: 42px;
+            font-family: $font-two;
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 36px;
+            color: #333D4B;
+        }
+        &--items>p{
+            font-weight: $main-weight;
+            font-size: $size-main;
+            line-height: 26px;  
+            color: $main-clr;
+        }
+    }
+
+    &__button{
+        position: absolute;
+        top: 624px;
+        padding: 15px 31px;
+        border-radius: 6px;
+        background-color: #66D2CF;
+        font-family: $font-two;
+        border: none;
+        font-size: 18px;
+        font-weight: 900;
+        color: $main-bg; 
+    }
+    &__button:hover{
+        opacity: 0.7;
+    }
+}
+.work>h2{
+    font-family: $font-two;
+    font-weight: 900;
+    color: #83888F;
+    font-size: 24px;
+    line-height: 32px
+}

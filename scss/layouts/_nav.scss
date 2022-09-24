@@ -1,0 +1,29 @@
+.nav{
+    height: 113px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__menu{
+        display: flex;
+        width: 23%;
+        justify-content: space-between;
+
+        &--list{
+            list-style-type: none;
+            text-transform: uppercase;
+            font-size: 12px;
+            &-link{
+                text-decoration: none;
+                font-family: $main-font;
+                color: #83888F;
+                font-weight: 700;
+                line-height: 15px;
+            }
+            &-link:hover{
+                color: #333D4B;
+            }
+        }
+    }
+}

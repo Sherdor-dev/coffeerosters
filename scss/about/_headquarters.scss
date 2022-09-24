@@ -1,0 +1,43 @@
+.headquarters{
+    width: 1045px;
+    height: 366px;
+    margin-top: 180px;
+    margin-left: 85px;
+
+    &>h2{
+        margin-bottom: 72px;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        font-family: $font-two;
+        color: #83888F;
+    }
+
+    &__card{
+        display: inline-block;
+    }
+
+    &__card:nth-child(1){
+        margin-right: 108px;
+    }
+    &__card:nth-child(2){
+        margin-right: 200px;
+    }
+
+    &__card>h3{
+        font-family: $font-two;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #333D4B;
+        margin-top: 45px;
+        margin-bottom: 24px;
+    }
+    &__card>ul>li{
+        font-family: $main-font;
+        font-weight: $main-weight;
+        font-size: $size-main;
+        line-height: 26px;
+        color: #333D4B;
+    }
+}

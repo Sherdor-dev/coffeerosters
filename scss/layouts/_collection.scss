@@ -1,0 +1,36 @@
+.collection{
+    width: 1111px;
+    height: 524.55px;
+    position: relative;
+    margin-bottom: 188px;
+
+    &__card{
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        left: 40px;
+        top: 126px;
+        z-index: 3333;
+        &--item{
+            text-align: center;
+            font-size: $size-main;
+            font-weight: $main-weight;
+            color: $main-clr;
+            font-family: $main-font;
+            line-height: 26px;
+            margin-left: 30px;
+        }
+        &--item>h3{
+            margin-top: 71px;
+            margin-bottom: 21px;
+            font-size: 24px;
+            font-weight: 900;
+            font-family: $font-two;
+            line-height: 32px;
+        }
+    }
+}
+.collection>img{
+    position: absolute;
+    left: 74px;
+}
